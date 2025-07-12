@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+#app {
+  overflow: hidden;
+}
+.calendar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  height: 100vh;
+}
+.header {
+  display: grid;
+  grid-auto-flow: column;
+}
+.grid {
+  overflow: auto;
+}
+/* Additional scoped styles go in each .vue file */
