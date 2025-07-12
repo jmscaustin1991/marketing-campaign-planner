@@ -1,0 +1,21 @@
+{
+  "campaigns": [
+    {
+      "id": 1,
+      "name": "Campaign A",
+      "startDate": "2025-07-08",
+      "cards": [
+        { "id": "c1", "label": "Email 1 - 7/8", "date": "2025-07-08", "type": "email" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Campaign B",
+      "startDate": "2025-09-22",
+      "cards": [
+        { "id": "c2", "label": "Social Recap - 9/22", "date": "2025-09-22", "type": "social" }
+      ]
+    }
+    // ...other campaigns/cards per PDF
+  ]
+}
